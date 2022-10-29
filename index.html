@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator walut</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="images/icon .png">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <form class="form js-form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">Kalkulator walut</legend>
+            <p>
+                <label>
+                    <span class="form__labelText">
+                        Kwota*
+                    </span>
+                    <input type="number" class="form__field js-sum" name="sum" min="1" placeholder="wpisz kwote" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span class="form__labelText">
+                        Waluta, którą posiadam:
+                    </span>
+                    <select class="form__field js-inputCurrency" name="inputCurrency">
+                        <option value="PLN">PLN</option>
+                        <option value="EUR">EUR</option>
+                        <option value="USD">USD</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span class="form__labelText">
+                        Waluta, którą chce otrzymać:
+                    </span>
+                    <select class="form__field js-outputCurrency" name="outputCurrency">
+                        <option value="EUR">EUR</option>
+                        <option value="PLN">PLN</option>
+                        <option value="USD">USD</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <button class="form__button js-button"> Przelicz</button>
+            </p>
+            <p class="form__result"> Otrzymana kwota: <span class="js-result"></span>
+            </p>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
