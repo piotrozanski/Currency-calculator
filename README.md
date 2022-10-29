@@ -1,5 +1,5 @@
 # Currency-calculator
-[![icon.png](https://i.postimg.cc/rmBZFtbD/icon.png)](https://postimg.cc/471QWnXG)
+[![icon.png](https://i.postimg.cc/FsZpwq9d/icon.png)](https://postimg.cc/qzN23164)
 
 ## Demo
 https://piotrozanski.github.io/Currency-calculator/
